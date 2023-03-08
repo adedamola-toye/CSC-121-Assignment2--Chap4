@@ -11,7 +11,7 @@ determine (and print) which customers have current balances that exceed their ne
 
     Initialize newCreditLimit to zero
     
-    For each customer counter  between one to three,      increase i by 1
+    For each customer counter  from one to three
         Input customer's account number
         Input credit limit before recession (oldCreditLimit)
         Input customers current credit balance ( the amount the cutsomer owes the company)
