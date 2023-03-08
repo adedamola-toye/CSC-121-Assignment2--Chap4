@@ -1,0 +1,14 @@
+One interesting application of computers is drawing graphs
+and bar charts. Write a program that reads five numbers (each between 1 and 30). For each number
+read, your program should print a line containing that number of adjacent asterisks. For example,
+if your program reads the number seven, it should print *******.
+
+    
+    Set line counter  to zero
+    Set asterisk counter to zero
+    Input a  number between 1 and 30
+    If number is greater than 1 and less than 30
+    For counter i between one and five , increase i by one
+        For counter j   between one and number inputted increase counter by 1
+        Print ( * )
+    Input next number

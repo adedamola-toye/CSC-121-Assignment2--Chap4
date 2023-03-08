@@ -1,0 +1,35 @@
+Write a program that reads a series of pairs of numbers as follows:
+a) Product number
+b) Quantity sold for one day
+Your program should use a switch statement to help determine the retail price for each product.
+Your program should calculate and display the total retail value of all products sold last week.
+
+    Initialize total retail value to zero
+    Initialize retail value per day to zero
+    for each day of the week
+        Input product number
+        Input quantity sold for one day 
+        while the user has not yet entered sentinel to end program
+            switch(product number)
+                for case where product number is equal to 1
+                    retail price is $2.98
+                for case where product number is equal to 2
+                    retail price is $4.50
+                for case where product number is equal to 3
+                    retail price is $9.98
+                for case where product number is equal to 4
+                    retail price is $4.49
+                for case where product number is equal to 5
+                    retail price is $6.87
+                default case
+                    print product number is from 1 to 5
+                    retail price is zero
+            Retail value is equal to quantity sold for one day times retail price
+            Add retail value to retail value per day
+            Input product number
+            Input quantity sold for one day 
+    Add retail value to total retail value
+
+    
+            
+    
